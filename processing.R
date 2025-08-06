@@ -27,3 +27,12 @@ trip_2019_summary<-trip_2019%>%
   mutate(percentage=count/sum(count)*100)
 
 #write.csv(trip_2019_summary, "post-process-data/summary_trip_2019.csv", row.names = FALSE)
+
+trip_2023<- read.csv("data/2023/mod_etapas_EM2023 1.csv")
+
+trip_2023_summary<-trip_2023%>%
+  group_by(modo_etapa)%>%
+  summarise(count=n())%>%
+  mutate(percentage=count/sum(count)*100)
+
+write.csv(trip_2023_summary, "post-process-data/summary_trip_2023.csv", row.names = FALSE)
