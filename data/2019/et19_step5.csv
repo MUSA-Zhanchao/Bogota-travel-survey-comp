@@ -1,0 +1,179 @@
+"combo_bucket","n","share"
+"Walk",49347,0.3672
+"Car",19653,0.1462
+"Other transit mode (a.SITP)",16033,0.1193
+"Other transit mode (b.Not SITP)",10327,0.0768
+"Bike",7849,0.0584
+"BRT",7330,0.0545
+"Taxi",6820,0.0507
+"Motorcycle",5911,0.044
+"BRT+Other transit mode (a.SITP)",2884,0.0215
+"Other transit mode (a.SITP)+BRT",2784,0.0207
+"Other transit mode (b.Not SITP)+BRT",793,0.0059
+"BRT+Other transit mode (b.Not SITP)",763,0.0057
+"Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)",440,0.0033
+"Other transit mode (a.SITP)+Other transit mode (b.Not SITP)",381,0.0028
+"Other transit mode (b.Not SITP)+Other transit mode (a.SITP)",341,0.0025
+"BRT+Taxi",246,0.0018
+"Taxi+BRT",169,0.0013
+"Other transit mode (b.Not SITP)+BRT+Other transit mode (a.SITP)",167,0.0012
+"Other transit mode (a.SITP)+BRT+Other transit mode (b.Not SITP)",149,0.0011
+"Car+BRT",129,0.001
+"Other",141,0.001
+"BRT+Car",126,9e-04
+"Other transit mode (a.SITP)+Taxi",123,9e-04
+"Other transit mode (b.Not SITP)+Taxi",120,9e-04
+"Car+Other transit mode (a.SITP)",98,7e-04
+"Other transit mode (a.SITP)+Car",100,7e-04
+"Taxi+Other transit mode (b.Not SITP)",84,6e-04
+"BRT+Other transit mode (a.SITP)+Car",62,5e-04
+"Car+Other transit mode (b.Not SITP)",48,4e-04
+"Other transit mode (a.SITP)+BRT+Taxi",52,4e-04
+"Other transit mode (b.Not SITP)+BRT+Other transit mode (b.Not SITP)",53,4e-04
+"Other transit mode (b.Not SITP)+Car",60,4e-04
+"BRT+Other transit mode (a.SITP)+Other transit mode (b.Not SITP)",37,3e-04
+"Car+Taxi",46,3e-04
+"BRT+Bike",25,2e-04
+"Bike+BRT",21,2e-04
+"Car+BRT+Other transit mode (a.SITP)",24,2e-04
+"Car+Other transit mode (a.SITP)+BRT",33,2e-04
+"Other transit mode (b.Not SITP)+BRT+Taxi",31,2e-04
+"Taxi+BRT+Other transit mode (a.SITP)",26,2e-04
+"Taxi+Other transit mode (a.SITP)",33,2e-04
+"BRT+Other transit mode (a.SITP)+Taxi",12,1e-04
+"BRT+Other transit mode (b.Not SITP)+Car",8,1e-04
+"BRT+Other transit mode (b.Not SITP)+Other transit mode (a.SITP)",7,1e-04
+"BRT+Other transit mode (b.Not SITP)+Taxi",15,1e-04
+"Bike+Car",9,1e-04
+"Bike+Other transit mode (a.SITP)",13,1e-04
+"Bike+Other transit mode (b.Not SITP)",16,1e-04
+"Car+BRT+Taxi",9,1e-04
+"Car+Bike",15,1e-04
+"Car+Motorcycle",7,1e-04
+"Car+Other transit mode (b.Not SITP)+BRT",9,1e-04
+"Motorcycle+BRT",10,1e-04
+"Motorcycle+Car",8,1e-04
+"Motorcycle+Other transit mode (a.SITP)",9,1e-04
+"Other transit mode (a.SITP)+BRT+Bike",7,1e-04
+"Other transit mode (a.SITP)+BRT+Car",14,1e-04
+"Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)+Other transit mode (b.Not SITP)",10,1e-04
+"Other transit mode (a.SITP)+Bike",9,1e-04
+"Other transit mode (a.SITP)+Motorcycle",12,1e-04
+"Other transit mode (a.SITP)+Other transit mode (b.Not SITP)+Other transit mode (a.SITP)",17,1e-04
+"Other transit mode (a.SITP)+Walk",11,1e-04
+"Other transit mode (b.Not SITP)+BRT+Car",7,1e-04
+"Other transit mode (b.Not SITP)+Bike",18,1e-04
+"Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+BRT",14,1e-04
+"Taxi+BRT+Other transit mode (b.Not SITP)",9,1e-04
+"Taxi+BRT+Taxi",10,1e-04
+"Taxi+Car",19,1e-04
+"Taxi+Other transit mode (a.SITP)+BRT",7,1e-04
+"BRT+Motorcycle",5,0
+"BRT+Other",1,0
+"BRT+Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)",1,0
+"BRT+Other transit mode (a.SITP)+BRT+Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+Taxi",1,0
+"BRT+Other transit mode (a.SITP)+Bike",1,0
+"BRT+Other transit mode (a.SITP)+Other transit mode (b.Not SITP)+Taxi",1,0
+"BRT+Other transit mode (a.SITP)+Walk",1,0
+"BRT+Other transit mode (b.Not SITP)+Bike",2,0
+"BRT+Other transit mode (b.Not SITP)+Motorcycle",1,0
+"BRT+Other+Other transit mode (b.Not SITP)",1,0
+"BRT+Walk",2,0
+"BRT+Walk+Taxi",1,0
+"Bike+BRT+Other transit mode (a.SITP)",3,0
+"Bike+BRT+Other transit mode (b.Not SITP)",3,0
+"Bike+Motorcycle",2,0
+"Bike+Other transit mode (a.SITP)+BRT",2,0
+"Bike+Taxi",4,0
+"Car+BRT+Other",1,0
+"Car+BRT+Other transit mode (a.SITP)+Other transit mode (b.Not SITP)",1,0
+"Car+BRT+Other transit mode (b.Not SITP)",4,0
+"Car+BRT+Other transit mode (b.Not SITP)+Car",1,0
+"Car+BRT+Other transit mode (b.Not SITP)+Taxi",1,0
+"Car+Other",1,0
+"Car+Other transit mode (a.SITP)+Car",1,0
+"Car+Other transit mode (a.SITP)+Car+Other transit mode (a.SITP)",1,0
+"Car+Other transit mode (a.SITP)+Other transit mode (b.Not SITP)",1,0
+"Car+Other transit mode (b.Not SITP)+BRT+Other transit mode (a.SITP)",2,0
+"Car+Other transit mode (b.Not SITP)+BRT+Taxi",1,0
+"Car+Other transit mode (b.Not SITP)+Other transit mode (a.SITP)",1,0
+"Car+Other transit mode (b.Not SITP)+Taxi",1,0
+"Car+Taxi+Other transit mode (b.Not SITP)",1,0
+"Car+Walk",2,0
+"Motorcycle+BRT+Motorcycle",1,0
+"Motorcycle+BRT+Other transit mode (a.SITP)",2,0
+"Motorcycle+BRT+Other transit mode (b.Not SITP)",2,0
+"Motorcycle+Bike",2,0
+"Motorcycle+Other transit mode (a.SITP)+BRT",1,0
+"Motorcycle+Other transit mode (a.SITP)+Taxi",1,0
+"Motorcycle+Other transit mode (b.Not SITP)",5,0
+"Motorcycle+Other transit mode (b.Not SITP)+BRT",1,0
+"Motorcycle+Other transit mode (b.Not SITP)+Other transit mode (a.SITP)",1,0
+"Motorcycle+Taxi",3,0
+"Other transit mode (a.SITP)+BRT+Motorcycle",1,0
+"Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)+BRT",2,0
+"Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)",1,0
+"Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)+Car",6,0
+"Other transit mode (a.SITP)+BRT+Other transit mode (b.Not SITP)+BRT+Other transit mode (a.SITP)",1,0
+"Other transit mode (a.SITP)+BRT+Other transit mode (b.Not SITP)+Car",1,0
+"Other transit mode (a.SITP)+BRT+Other transit mode (b.Not SITP)+Other transit mode (a.SITP)",2,0
+"Other transit mode (a.SITP)+BRT+Taxi+Other transit mode (a.SITP)+BRT",1,0
+"Other transit mode (a.SITP)+BRT+Walk",1,0
+"Other transit mode (a.SITP)+Car+Other transit mode (a.SITP)",1,0
+"Other transit mode (a.SITP)+Car+Other transit mode (b.Not SITP)",1,0
+"Other transit mode (a.SITP)+Car+Taxi",2,0
+"Other transit mode (a.SITP)+Other",4,0
+"Other transit mode (a.SITP)+Other transit mode (b.Not SITP)+BRT",4,0
+"Other transit mode (a.SITP)+Other transit mode (b.Not SITP)+Car",3,0
+"Other transit mode (a.SITP)+Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+Car",1,0
+"Other transit mode (a.SITP)+Other transit mode (b.Not SITP)+Taxi",4,0
+"Other transit mode (a.SITP)+Other transit mode (b.Not SITP)+Taxi+BRT+Taxi",1,0
+"Other transit mode (a.SITP)+Taxi+BRT",1,0
+"Other transit mode (a.SITP)+Taxi+Other transit mode (b.Not SITP)",1,0
+"Other transit mode (a.SITP)+Walk+Car",1,0
+"Other transit mode (b.Not SITP)+BRT+Bike",1,0
+"Other transit mode (b.Not SITP)+BRT+Bike+Other transit mode (a.SITP)",1,0
+"Other transit mode (b.Not SITP)+BRT+Other",2,0
+"Other transit mode (b.Not SITP)+BRT+Other transit mode (a.SITP)+Car",3,0
+"Other transit mode (b.Not SITP)+BRT+Other transit mode (a.SITP)+Other transit mode (b.Not SITP)",4,0
+"Other transit mode (b.Not SITP)+BRT+Other transit mode (a.SITP)+Taxi",1,0
+"Other transit mode (b.Not SITP)+BRT+Other transit mode (b.Not SITP)+BRT",2,0
+"Other transit mode (b.Not SITP)+BRT+Other transit mode (b.Not SITP)+Car",2,0
+"Other transit mode (b.Not SITP)+BRT+Walk",1,0
+"Other transit mode (b.Not SITP)+Car+BRT",1,0
+"Other transit mode (b.Not SITP)+Motorcycle",6,0
+"Other transit mode (b.Not SITP)+Motorcycle+Other transit mode (b.Not SITP)",1,0
+"Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)",4,0
+"Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+BRT+Other transit mode (b.Not SITP)",4,0
+"Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+BRT+Other transit mode (b.Not SITP)+Other transit mode (a.SITP)",1,0
+"Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+Car",4,0
+"Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+Other transit mode (b.Not SITP)",4,0
+"Other transit mode (b.Not SITP)+Other transit mode (a.SITP)+Taxi",1,0
+"Other transit mode (b.Not SITP)+Taxi+BRT",1,0
+"Other transit mode (b.Not SITP)+Taxi+Car",3,0
+"Other transit mode (b.Not SITP)+Taxi+Other transit mode (a.SITP)+BRT+Other transit mode (b.Not SITP)",1,0
+"Other transit mode (b.Not SITP)+Taxi+Other transit mode (b.Not SITP)",4,0
+"Other transit mode (b.Not SITP)+Walk",1,0
+"Other transit mode (b.Not SITP)+Walk+BRT",1,0
+"Other+BRT",1,0
+"Other+BRT+Other",4,0
+"Other+BRT+Other transit mode (b.Not SITP)",2,0
+"Other+Other transit mode (a.SITP)",1,0
+"Other+Taxi",3,0
+"Taxi+BRT+Car",1,0
+"Taxi+Bike",5,0
+"Taxi+Motorcycle",4,0
+"Taxi+Other transit mode (a.SITP)+BRT+Other transit mode (a.SITP)",3,0
+"Taxi+Other transit mode (a.SITP)+Car",2,0
+"Taxi+Other transit mode (a.SITP)+Car+Other transit mode (a.SITP)",1,0
+"Taxi+Other transit mode (a.SITP)+Other transit mode (b.Not SITP)",2,0
+"Taxi+Other transit mode (b.Not SITP)+BRT",5,0
+"Taxi+Other transit mode (b.Not SITP)+BRT+Other transit mode (a.SITP)",2,0
+"Taxi+Other transit mode (b.Not SITP)+Car",2,0
+"Taxi+Other transit mode (b.Not SITP)+Taxi",5,0
+"Taxi+Walk",1,0
+"Walk+BRT",1,0
+"Walk+BRT+Other transit mode (b.Not SITP)",2,0
+"Walk+Bike",1,0
+"Walk+Other transit mode (a.SITP)",2,0
+"Walk+Other transit mode (b.Not SITP)+Walk",3,0
