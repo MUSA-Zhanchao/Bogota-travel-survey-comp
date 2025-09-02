@@ -3,14 +3,14 @@ etapas2019<-read.csv("EtapasEODH2019.csv")
 
 et19_step1 <- etapas2019 %>%
   filter(!is.na(p18_id_medio_transporte),
-         p18_id_medio_transporte != 99) %>% 
+         p18_id_medio_transporte != 99) %>%
   mutate(
     TripID = paste(id_hogar, id_persona, id_viaje, sep = "-"),
     modo_nombre = dplyr::recode(as.character(p18_id_medio_transporte), !!!mode_dict_2019)
   ) %>%
   arrange(TripID, id_etapa)
 
-# Mapping name 
+# Mapping name
 mode_dict_2019 <- c(
   `1`  = "TransMilenio",
   `2`  = "Bus alimentador",
@@ -58,7 +58,7 @@ et19_step1 <- et19_step1 %>%
 # Step 2 combo
 build_combo <- function(modes) {
   if (length(modes) == 0) return(NA_character_)
-  keep <- c(TRUE, modes[-1] != head(modes, -1)) 
+  keep <- c(TRUE, modes[-1] != head(modes, -1))
   v <- modes[keep]
   paste(v, collapse = "+")
 }
@@ -76,8 +76,8 @@ et19_step2 <- et19_step1 %>%
 et19_step3 <- et19_step2 %>%
   count(combo, name = "n") %>%
   mutate(
-    share = n / sum(n),       
-    share = round(share, 4)   
+    share = n / sum(n),
+    share = round(share, 4)
   ) %>%
   arrange(desc(share))
 
@@ -92,41 +92,41 @@ collapse_adjacent <- function(v) {
 
 recode_bucket_2019 <- function(x) {
   x1 <- stringr::str_squish(x)
-  
+
   has <- function(pat) stringr::str_detect(
     stringi::stri_trans_general(x1, "Latin-ASCII"),  # "móvil" -> "movil"
     stringr::regex(pat, ignore_case = TRUE)
   )
-  
+
   dplyr::case_when(
     # Walk
     has("^a pie$") ~ "Walk",
-    
+
     # Bike
     has("^bicicleta$") | has("^bicicleta como pasajero$") |
       has("^bicicleta con motor$") | has("^bicicleta publica$") ~ "Bike",
-    
+
     # Car
     has("^vehiculo privado como conductor$") |
       has("^vehiculo privado como pasajero$") |
       has("^automovil informal/pirata$") |
       has("^campero/jeep$") |
       has("^camion/volqueta/tractomula$") ~ "Car",
-    
+
     # Taxi
     has("^bicitaxi$") | has("^mototaxi \\(2 ruedas\\)$") |
       has("^taxi colectivo$") |
       has("app") & has("auto|camioneta") |   # 兼容 “Tr. individual en auto/camioneta por app móvil”
       has("^taxi$") | has("^taxi solicitado por app$") ~ "Taxi",
-    
+
     # Motorcycle
     has("^motocicleta como conductor$") |
       has("^motocicleta como pasajero$") |
       has("^motocarro de pasajeros/carga$") ~ "Motorcycle",
-    
+
     # BRT
     has("^transmilenio$") | has("^cable$") ~ "BRT",
-    
+
     # Other transit mode (a.SITP)
     has("^sitp - provisional$") |
       has("^sitp - complementario \\(naranja\\)$") |
@@ -134,7 +134,7 @@ recode_bucket_2019 <- function(x) {
       has("^sitp - urbano \\(azul\\)$") |
       has("^sitp zonal$") |
       has("^bus alimentador$") ~ "Other transit mode (a.SITP)",
-    
+
     # Other transit mode (b.Not SITP) —— 包含 Bus dual（你要求放这里）
     has("^bus privado/de empresa$") |
       has("^bus/buseta informal/pirata/chana$") |
@@ -143,14 +143,14 @@ recode_bucket_2019 <- function(x) {
       has("^bus escalera/chiva$") |
       has("^bus intermunicipal$") |
       has("^bus dual$") ~ "Other transit mode (b.Not SITP)",
-    
+
     # Other
     has("^otro$") |
       has("^vehiculo de traccion animal$") |
       has("^vehiculo de traccion humana$") |
       has("^patineta$") ~ "Other",
-    
-    TRUE ~ x1 
+
+    TRUE ~ x1
   )
 }
 
